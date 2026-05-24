@@ -1620,6 +1620,226 @@ const ingredients = [
     ]
   },
   {
+    name: "Mandelic Acid",
+    category: "skin",
+    aka: "AHA (from bitter almonds), large-molecule AHA",
+    sub: "The gentlest AHA \u2014 perfect for sensitive and melanin-rich skin",
+    type: "AHA / Alpha Hydroxy Acid",
+    bestFor: "Sensitive skin, Melanin-rich skin, Mild acne, PIH",
+    facePct: "5\u201310%",
+    bodyPct: "10%",
+    howOften: "2\u20133x per week, PM (daily if tolerated)",
+    dontMix: ["Other AHAs/BHA (same routine)", "Retinol (same routine)"],
+    product: "The Ordinary Mandelic Acid 10% + HA",
+    productReview: "22,000+ reviews, 4.4 stars. Often recommended as the first acid for darker skin tones \u2014 lowest risk of post-inflammatory pigmentation among AHAs.",
+    productNote: "Look for: 5\u201310% mandelic acid with HA. Larger molecule than glycolic = slower penetration = less irritation. The safest AHA choice for Indian, Black, and Asian skin tones.",
+    pros: ["Lowest irritation among AHAs", "Lowest PIH risk on darker skin", "Antibacterial (helps acne)", "Brightens without flaking"],
+    cons: ["Slower than glycolic", "Still increases sun sensitivity slightly", "Less potent for deep texture issues"],
+    expect: [
+      { period: "Week 1\u20132", desc: "Skin feels gently smoother. No stinging unlike stronger acids." },
+      { period: "Week 4\u20136", desc: "Dark marks fading. Breakouts reduce. Skin tone evening out." },
+      { period: "Week 8+", desc: "Even-toned, glowing skin. Consistently smooth texture." }
+    ]
+  },
+  {
+    name: "PHA (Gluconolactone)",
+    category: "skin",
+    aka: "Polyhydroxy Acid, Gluconolactone, Lactobionic Acid",
+    sub: "The gentlest exfoliating acid \u2014 hydrates while it exfoliates",
+    type: "PHA / Polyhydroxy Acid",
+    bestFor: "Sensitive skin, Rosacea, Eczema-prone skin, Compromised barriers",
+    facePct: "4\u201310%",
+    bodyPct: "10%",
+    howOften: "Daily, AM or PM",
+    dontMix: ["Compatible with most ingredients \u2014 even safe with retinol"],
+    product: "NeoStrata Restore Bionic Face Cream",
+    productReview: "10,000+ reviews, 4.5 stars. Dermatologist go-to for rosacea and compromised skin. Same exfoliation benefits as AHA with virtually no irritation.",
+    productNote: "Look for: 4\u201310% gluconolactone or lactobionic acid. PHAs have LARGER molecules than AHAs \u2014 they sit on the surface and exfoliate without penetrating deeply, so no stinging.",
+    pros: ["Gentlest exfoliating acid available", "Antioxidant + humectant in one", "Safe alongside retinol", "Doesn't increase sun sensitivity"],
+    cons: ["Slowest results among acids", "Pricier than glycolic/lactic", "Less potent for stubborn texture"],
+    expect: [
+      { period: "Week 1\u20132", desc: "Skin smoother and more hydrated. Barrier feels stronger." },
+      { period: "Week 4\u20136", desc: "Texture improving steadily. Subtle brightening." },
+      { period: "Week 8+", desc: "Consistent gentle glow. Skin barrier visibly resilient." }
+    ]
+  },
+  {
+    name: "Tranexamic Acid",
+    category: "skin",
+    aka: "TXA, trans-4-(aminomethyl)cyclohexanecarboxylic acid",
+    sub: "Gold-standard pigmentation fix \u2014 works where others fail",
+    type: "Synthetic amino acid derivative",
+    bestFor: "Melasma, Stubborn PIH, Hormonal pigmentation, Sun damage",
+    facePct: "2\u20135%",
+    bodyPct: "5%",
+    howOften: "Twice daily, AM and PM",
+    dontMix: ["Plays well with everything"],
+    product: "SkinCeuticals Discoloration Defense",
+    productReview: "8,500+ reviews, 4.6 stars. Clinical favorite for melasma. Korean dermatology studies show it outperforms hydroquinone with far fewer side effects.",
+    productNote: "Look for: 2\u20135% tranexamic acid, ideally paired with niacinamide and kojic acid (the trifecta). Topical TXA is much safer than oral \u2014 discuss oral form with a doctor.",
+    pros: ["Works on melasma (notoriously hard to treat)", "Safe long-term use", "Pregnancy-safe in topical form", "No sun sensitivity"],
+    cons: ["Pricier than alternatives", "Takes 8\u201312 weeks for results", "Hard to find in good formulations", "Oral form requires medical supervision"],
+    expect: [
+      { period: "Week 2\u20134", desc: "Subtle lightening of dark patches. Tone starts evening out." },
+      { period: "Week 6\u20138", desc: "Noticeable fading. Melasma patches significantly lighter." },
+      { period: "Week 12+", desc: "Significant pigmentation reduction. Maintain to prevent return." }
+    ]
+  },
+  {
+    name: "Alpha Arbutin",
+    category: "skin",
+    aka: "4-Hydroxyphenyl-\u03b1-D-glucopyranoside, Bearberry derivative",
+    sub: "A safer skin brightener \u2014 works without the hydroquinone risks",
+    type: "Hydroquinone derivative (gentle brightener)",
+    bestFor: "Dark spots, Hyperpigmentation, Uneven skin tone, Sun damage",
+    facePct: "1\u20132%",
+    bodyPct: "2%",
+    howOften: "Twice daily, AM and PM",
+    dontMix: ["Compatible with most ingredients including Vitamin C and Niacinamide"],
+    product: "The Ordinary Alpha Arbutin 2% + HA",
+    productReview: "32,000+ reviews, 4.4 stars. Affordable, gentle, well-studied. Pairs perfectly with vitamin C in AM for synergistic brightening.",
+    productNote: "Look for: 1\u20132% alpha arbutin specifically (NOT beta arbutin \u2014 much less effective). Stable in formulation, no oxidation worries. Best layered under vitamin C in AM.",
+    pros: ["Far safer than hydroquinone", "Stable in formulation", "Layers under everything", "Affordable"],
+    cons: ["Slower than hydroquinone (but safer)", "Subtle results when used alone", "Needs consistency for 8\u201312 weeks", "Less potent on deep pigmentation"],
+    expect: [
+      { period: "Week 2\u20134", desc: "Subtle brightening. New dark spots stop forming as easily." },
+      { period: "Week 6\u20138", desc: "Existing spots fading noticeably." },
+      { period: "Week 12+", desc: "Even tone. Sustained results with continued use." }
+    ]
+  },
+  {
+    name: "Peptides",
+    category: "skin",
+    aka: "Matrixyl, copper peptides, palmitoyl peptides, signal peptides",
+    sub: "Tiny protein fragments that signal collagen production",
+    type: "Amino acid chains / Signal peptides",
+    bestFor: "Fine lines, Firmness, Anti-aging, Post-procedure recovery",
+    facePct: "2\u201310%",
+    bodyPct: "5%",
+    howOften: "Twice daily, AM and PM",
+    dontMix: ["Don't pair with low-pH Vitamin C (LAA) \u2014 can denature peptides. Separate AM/PM."],
+    product: "The Ordinary 'Buffet' + Copper Peptides 1%",
+    productReview: "38,000+ reviews, 4.3 stars. Multi-peptide formula at an unbeatable price. Visible firmness improvement over 8\u201312 weeks per long-term users.",
+    productNote: "Look for: Matrixyl 3000, copper peptides (GHK-Cu), or palmitoyl tripeptide. Tetrapeptides for fine lines, copper for healing. Apply to damp skin for best penetration.",
+    pros: ["Zero irritation (unlike retinol)", "Pregnancy-safe", "Layers with everything", "Strengthens barrier"],
+    cons: ["Subtle vs retinol/retinal results", "Premium versions are expensive", "Requires 12+ weeks for visible change"],
+    expect: [
+      { period: "Week 2\u20134", desc: "Skin feels firmer to touch. More plumped overall." },
+      { period: "Week 6\u20138", desc: "Fine lines softer. Skin looks more rested." },
+      { period: "Week 12+", desc: "Visible firmness. Smoother texture. The slow-but-steady ingredient." }
+    ]
+  },
+  {
+    name: "Adapalene (Differin)",
+    category: "skin",
+    aka: "Third-generation retinoid, retinoic acid derivative",
+    sub: "OTC retinoid as effective as prescription tretinoin",
+    type: "Retinoid (third-generation)",
+    bestFor: "Acne, Clogged pores, Texture, Anti-aging",
+    facePct: "0.1% (OTC), 0.3% (Rx)",
+    bodyPct: "0.1%",
+    howOften: "Nightly (start every 3 days, build up over 4 weeks)",
+    dontMix: ["Benzoyl peroxide (unless using Epiduo formulation)", "AHAs/BHAs (same routine)", "Vitamin C (same routine \u2014 use AM separately)"],
+    product: "Differin Gel 0.1%",
+    productReview: "60,000+ reviews, 4.4 stars. First OTC retinoid approved in the US. Equivalent acne efficacy to prescription tretinoin with notably less irritation.",
+    productNote: "Look for: 0.1% adapalene (Differin Gel is the standard). Pea-sized amount for the whole face. NOT pregnancy-safe. Buffer with moisturizer if irritation hits hard.",
+    pros: ["Equivalent to prescription tretinoin for acne", "Available OTC, affordable", "Less irritating than tretinoin", "Treats acne + aging together"],
+    cons: ["Causes purging for 4\u20138 weeks", "Drying initially", "Sun sensitivity (always SPF)", "Not safe during pregnancy"],
+    expect: [
+      { period: "Week 1\u20134", desc: "Purging happens \u2014 existing clogs come up. Dryness and peeling normal." },
+      { period: "Week 8\u201312", desc: "Skin clearing. Texture visibly smoother." },
+      { period: "Month 3+", desc: "Significant acne and aging improvement. The long game pays off." }
+    ]
+  },
+  {
+    name: "Polyglutamic Acid",
+    category: "skin",
+    aka: "PGA, fermented natto extract",
+    sub: "Next-gen hydrator \u2014 holds 4x more water than hyaluronic acid",
+    type: "Humectant (peptide-based)",
+    bestFor: "Dehydration, Fine lines from dryness, All skin types, Anti-aging",
+    facePct: "0.5\u20132%",
+    bodyPct: "1\u20132%",
+    howOften: "Twice daily, AM and PM",
+    dontMix: ["Compatible with everything \u2014 layers great over HA"],
+    product: "The Inkey List Polyglutamic Acid Serum",
+    productReview: "18,000+ reviews, 4.4 stars. Game-changer for chronic dehydration \u2014 locks moisture in better than HA alone. Best layered with HA underneath.",
+    productNote: "Look for: 0.5\u20132% PGA, ideally with HA. PGA has a much larger molecule than HA \u2014 sits on the skin surface and prevents transepidermal water loss. Layer HA first, PGA on top.",
+    pros: ["4x hydration capacity of HA", "Forms protective film on skin", "Smooths instantly", "Plays well with everything"],
+    cons: ["Pricier than HA", "Less deep penetration than HA", "Can feel slightly tacky at higher %", "Newer ingredient (less long-term data)"],
+    expect: [
+      { period: "Day 1", desc: "Skin visibly plumper and smoother right away." },
+      { period: "Week 2\u20134", desc: "Dehydration lines significantly reduced." },
+      { period: "Week 6+", desc: "Baseline hydration much improved \u2014 skin holds moisture even without reapplication." }
+    ]
+  },
+  {
+    name: "Snail Mucin",
+    category: "skin",
+    aka: "Snail Secretion Filtrate, SSF, snail slime",
+    sub: "The K-beauty barrier-repair essence everyone has opinions about",
+    type: "Glycoprotein complex / Biofermented",
+    bestFor: "Damaged skin, Healing, Hydration, Post-procedure recovery, Acne marks",
+    facePct: "90\u201396% (in essences)",
+    bodyPct: "90%+",
+    howOften: "Twice daily, AM and PM",
+    dontMix: ["Compatible with most things \u2014 avoid mixing with strong direct acids in the same step"],
+    product: "COSRX Advanced Snail 96 Mucin Power Essence",
+    productReview: "85,000+ reviews, 4.6 stars. Cult K-beauty product. 96% snail secretion. Healing, hydrating, lightly tacky texture that absorbs into a smooth finish.",
+    productNote: "Look for: 90%+ snail secretion filtrate. Apply 2\u20133 drops on damp skin, pat in. Slight tackiness is normal \u2014 let it sit for 1 minute before moisturizer.",
+    pros: ["Genuinely heals acne marks and small scars", "Deeply hydrating + soothing", "Gentle on the barrier", "Cult K-beauty staple"],
+    cons: ["Tacky texture (not for everyone)", "Not vegan", "Subtle, slow results", "Smell varies by brand"],
+    expect: [
+      { period: "Day 1\u20133", desc: "Skin feels comfortable, less reactive to other products." },
+      { period: "Week 2\u20134", desc: "Acne marks visibly fading. Healing accelerated." },
+      { period: "Week 6+", desc: "Skin texture noticeably smoother and more resilient." }
+    ]
+  },
+  {
+    name: "Marula Oil",
+    category: "skin",
+    aka: "Sclerocarya birrea seed oil, 'liquid gold of Africa'",
+    sub: "Lightweight oil rich in omega-9 and antioxidants",
+    type: "Carrier Oil (lightweight)",
+    bestFor: "Dry skin, Mature skin, Sensitive skin, Fine lines",
+    facePct: "Pure or 5\u201315% in serums",
+    bodyPct: "Pure",
+    howOften: "Daily, AM or PM",
+    dontMix: ["Compatible with everything"],
+    product: "Drunk Elephant Virgin Marula Luxury Facial Oil",
+    productReview: "14,000+ reviews, 4.6 stars. Cold-pressed, ethically sourced from Sub-Saharan Africa. Multi-purpose (face, body, hair). High in oleic acid + antioxidants.",
+    productNote: "Look for: cold-pressed, organic, dark glass bottle. Should smell mildly nutty, golden in color. Penetrates faster than most carrier oils. Patch test on chest first.",
+    pros: ["Lightweight (absorbs quickly)", "Rich in antioxidants", "Naturally stable (long shelf life)", "Multi-use across face, body, hair"],
+    cons: ["Expensive (especially premium brands)", "Subtle results \u2014 not a 'wow' ingredient", "Too rich for very oily skin", "Quality varies wildly"],
+    expect: [
+      { period: "Day 1", desc: "Skin feels nourished and visibly plumped." },
+      { period: "Week 2\u20134", desc: "Dry patches resolved. Skin softer overall." },
+      { period: "Week 6+", desc: "Visibly healthier, more resilient skin. Better tolerance to other actives." }
+    ]
+  },
+  {
+    name: "Tamanu Oil",
+    category: "skin",
+    aka: "Calophyllum inophyllum, Foraha oil, 'Polynesian green gold'",
+    sub: "Traditional Polynesian oil renowned for scar healing",
+    type: "Carrier Oil (medium weight)",
+    bestFor: "Acne scars, Stretch marks, Mild acne, Burns/wounds, PIH",
+    facePct: "Spot treatment or 5\u201315% in serums",
+    bodyPct: "10\u201320% in body oils",
+    howOften: "2\u20133x per week, PM (or spot treat as needed)",
+    dontMix: ["Patch test first \u2014 can irritate very sensitive skin", "Skip if you have a nut allergy"],
+    product: "Now Solutions 100% Pure Tamanu Oil",
+    productReview: "7,500+ reviews, 4.4 stars. Cold-pressed and raw. Strong herbaceous scent (which signals an authentic product). Best as a spot treatment for active acne or scars.",
+    productNote: "Look for: cold-pressed, dark green/yellow color, herbaceous earthy smell. Strong scent = real ingredient (refined versions smell like nothing and don't work).",
+    pros: ["Genuinely fades scars over weeks", "Anti-inflammatory (calms breakouts)", "Antimicrobial (acne support)", "Traditional wound healer with research behind it"],
+    cons: ["Strong herbaceous smell (not for everyone)", "Can break out very oily skin types", "Greenish tint (stains lighter fabrics)", "Comedogenic for some"],
+    expect: [
+      { period: "Week 1\u20132", desc: "Active acne calms. Inflammation reduces." },
+      { period: "Week 4\u20136", desc: "Scars and dark marks start fading noticeably." },
+      { period: "Week 8+", desc: "Significant scar improvement. Smoother, more even-toned skin." }
+    ]
+  },
+  {
     name: "Castor Oil",
     category: "hair",
     aka: "Ricinus communis seed oil",
@@ -2379,11 +2599,11 @@ const concernIngredientMap = {
 
 // Map skin type → ingredients that suit it
 const skinTypeIngredientMap = {
-  'oily':      ['Salicylic Acid', 'Niacinamide', 'Jojoba Oil', 'Azelaic Acid'],
-  'dry':       ['Hyaluronic Acid', 'Ceramides', 'Squalane', 'Urea', 'Lactic Acid'],
-  'combo':     ['Niacinamide', 'Hyaluronic Acid', 'Salicylic Acid', 'Jojoba Oil'],
-  'sensitive': ['Centella Asiatica', 'Azelaic Acid', 'Bakuchiol', 'Ceramides', 'Squalane'],
-  'normal':    ['Vitamin C', 'Retinol', 'Niacinamide', 'Bakuchiol'],
+  'oily':      ['Salicylic Acid', 'Niacinamide', 'Jojoba Oil', 'Azelaic Acid', 'Adapalene (Differin)', 'Tamanu Oil', 'Mandelic Acid'],
+  'dry':       ['Hyaluronic Acid', 'Ceramides', 'Squalane', 'Urea', 'Lactic Acid', 'Marula Oil', 'Polyglutamic Acid', 'Snail Mucin'],
+  'combo':     ['Niacinamide', 'Hyaluronic Acid', 'Salicylic Acid', 'Jojoba Oil', 'Mandelic Acid', 'Polyglutamic Acid', 'Adapalene (Differin)'],
+  'sensitive': ['Centella Asiatica', 'Azelaic Acid', 'Bakuchiol', 'Ceramides', 'Squalane', 'Mandelic Acid', 'PHA (Gluconolactone)', 'Snail Mucin', 'Peptides'],
+  'normal':    ['Vitamin C', 'Retinol', 'Niacinamide', 'Bakuchiol', 'Peptides', 'Tranexamic Acid', 'Alpha Arbutin', 'Adapalene (Differin)'],
 };
 
 function isRecommended(item) {
